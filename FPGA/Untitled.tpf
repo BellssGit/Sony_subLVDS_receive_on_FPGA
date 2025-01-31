@@ -1,0 +1,15 @@
+FREQUENCY NET "ref_clkin_c" 50.000000 MHz ;
+FREQUENCY NET "tft_clk_c" 10.000000 MHz ;
+FREQUENCY PORT "imx_clkin" 300.000000 MHz ;
+FREQUENCY PORT "ref_clkin" 50.000000 MHz ;
+RVL_ALIAS "sclk" "imx_capture_inst/clk"; 
+RVL_ALIAS "sclk" "imx_capture_inst/clk"; 
+RVL_ALIAS "sclk" "imx_capture_inst/clk"; 
+RVL_ALIAS "sclk" "imx_capture_inst/clk"; 
+RVL_ALIAS "sclk" "imx_capture_inst/clk"; 
+RVL_ALIAS "sclk" "imx_capture_inst/clk"; 
+RVL_ALIAS "sclk" "imx_capture_inst/clk"; 
+RVL_ALIAS "ref_clkin" "ref_clkin"; 
+BLOCK RESETPATHS ;
+BLOCK ASYNCPATHS ;
+BLOCK JTAGPATHS ;

@@ -1,0 +1,66 @@
+[Device]
+Family=ecp5u
+PartType=LFE5U-25F
+PartName=LFE5U-25F-6BG256C
+SpeedGrade=6
+Package=CABGA256
+OperatingCondition=COM
+Status=S
+
+[IP]
+VendorName=Lattice Semiconductor Corporation
+CoreType=LPM
+CoreStatus=Demo
+CoreName=DDR_GENERIC
+CoreRevision=6.0
+ModuleName=imx_interface
+SourceFormat=verilog
+ParameterFileVersion=1.0
+Date=01/24/2025
+Time=14:36:50
+
+[Parameters]
+Verilog=1
+VHDL=0
+EDIF=1
+Destination=Synplicity
+Expression=BusA(0 to 7)
+Order=[MSB:LSB]
+IO=0
+mode=Receive
+trioddr=0
+io_type=SUBLVDS
+width=8
+freq_in=300
+bandwidth=4800
+aligned=Centered
+pre-configuration=ENABLED
+mode2=Receive
+trioddr2=0
+io_type2=SUBLVDS
+freq_in2=300
+gear=4:1
+aligned2=Centered
+width2=8
+DataLane=By Time
+EnECLK=0
+Interface=GDDRX2_RX.ECLK.Centered
+Delay=Static Default
+DelVal=
+EnInEdge=
+NumEdge=BOTH
+EnDynamic=0
+GenPll=0
+Freq=
+AFreq=
+Reference=0
+IOBUF=
+ReceiverSync=0
+EnDynamicAlign=
+DynamicAlign=
+MIPIFilter=0
+enClkIBuf=0
+ClkIBuf=LVDS
+
+[Command]
+cmd_line= -w -n imx_interface -lang verilog -synth synplify -bus_exp 7 -bb -arch sa5p00 -type iol -mode Receive -io_type SUBLVDS -width 8 -freq_in 300 -gear 4 -del 128

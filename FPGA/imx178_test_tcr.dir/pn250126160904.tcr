@@ -1,0 +1,5 @@
+#Start recording tcl command: 1/26/2025 15:54:16
+#Project Location: C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA; Project name: imx178_test
+prj_project open "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/imx178_test.ldf"
+prj_project close
+#Stop recording: 1/26/2025 16:09:04

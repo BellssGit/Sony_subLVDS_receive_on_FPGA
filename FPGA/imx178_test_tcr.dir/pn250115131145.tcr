@@ -1,0 +1,7 @@
+#Start recording tcl command: 1/15/2025 13:06:49
+#Project Location: C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA; Project name: imx178_test
+prj_project open "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/imx178_test.ldf"
+prj_src remove "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/impl1/source/top.v" "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/impl1/source/tb.v" "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/impl1/source/imx_capture.v"
+prj_src add "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/src/imx_capture.v" "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/src/tb.v" "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/src/top.v"
+prj_src syn_sim -src "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/src/tb.v" SimulateOnly
+#Stop recording: 1/15/2025 13:11:45

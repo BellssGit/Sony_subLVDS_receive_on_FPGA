@@ -1,0 +1,53 @@
+[Device]
+Family=ecp5u
+PartType=LFE5U-25F
+PartName=LFE5U-25F-6BG256C
+SpeedGrade=6
+Package=CABGA256
+OperatingCondition=COM
+Status=S
+
+[IP]
+VendorName=Lattice Semiconductor Corporation
+CoreType=LPM
+CoreStatus=Demo
+CoreName=FIFO_DC
+CoreRevision=5.8
+ModuleName=line_buffer
+SourceFormat=verilog
+ParameterFileVersion=1.0
+Date=01/23/2025
+Time=16:59:12
+
+[Parameters]
+Verilog=1
+VHDL=0
+EDIF=1
+Destination=Synplicity
+Expression=BusA(0 to 7)
+Order=[MSB:LSB]
+IO=0
+FIFOImp=EBR Based
+Depth=512
+Width=96
+RDepth=512
+RWidth=96
+regout=0
+ClockEn=0
+CtrlByRdEn=0
+EmpFlg=0
+PeMode=Static - Dual Threshold
+PeAssert=10
+PeDeassert=12
+FullFlg=0
+PfMode=Static - Dual Threshold
+PfAssert=508
+PfDeassert=506
+Reset=Async
+Reset1=Sync
+RDataCount=0
+WDataCount=0
+EnECC=0
+
+[Command]
+cmd_line= -w -n line_buffer -lang verilog -synth synplify -bus_exp 7 -bb -arch sa5p00 -type ebfifo -depth 512 -width 96 -rwidth 96 -reset_rel SYNC -pe -1 -pf -1

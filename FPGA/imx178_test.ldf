@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="imx178_test" device="LFE5U-25F-6BG256C" default_implementation="impl1">
+    <Options/>
+    <Implementation title="impl1" dir="impl1" description="impl1" synthesis="synplify" default_strategy="Strategy1">
+        <Options def_top="top"/>
+        <Source name="src/top.v" type="Verilog" type_short="Verilog">
+            <Options top_module="top"/>
+        </Source>
+        <Source name="imx_interface/imx_interface.sbx" type="sbx" type_short="SBX">
+            <Options/>
+        </Source>
+        <Source name="src/imx_capture.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="src/tb.v" type="Verilog" type_short="Verilog" syn_sim="SimOnly">
+            <Options/>
+        </Source>
+        <Source name="line_buffer/line_buffer.sbx" type="sbx" type_short="SBX">
+            <Options/>
+        </Source>
+        <Source name="src/watch_dog.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="display_clock/display_clock.sbx" type="sbx" type_short="SBX" excluded="TRUE">
+            <Options/>
+        </Source>
+        <Source name="src/tft_ctrl.v" type="Verilog" type_short="Verilog" excluded="TRUE">
+            <Options/>
+        </Source>
+        <Source name="imx178_test.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+        <Source name="reveal/probe.rvl" type="Reveal" type_short="Reveal">
+            <Options/>
+        </Source>
+        <Source name="reveal/reveal_view.rva" type="Reveal Analyzer Project File" type_short="RVA">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="imx178_test1.sty"/>
+</BaliProject>

@@ -1,0 +1,30 @@
+SCUBA, Version Diamond (64-bit) 3.13.0.56.2
+Fri Jan 24 14:36:51 2025
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2023 Lattice Semiconductor Corporation,  All rights reserved.
+
+    Issued command   : C:\lscc\diamond\3.13\ispfpga\bin\nt64\scuba.exe -w -n imx_interface -lang verilog -synth synplify -bus_exp 7 -bb -arch sa5p00 -type iol -mode Receive -io_type SUBLVDS -width 8 -freq_in 300 -gear 4 -del 128 -fdc C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/imx_interface/imx_interface.fdc 
+    Circuit name     : imx_interface
+    Module type      : iol
+    Module Version   : 5.8
+    Ports            : 
+	Inputs       : alignwd, clkin, start, sync_clk, sync_reset, datain[7:0]
+	Outputs      : ready, sclk, q[31:0]
+    I/O buffer       : not inserted
+    EDIF output      : imx_interface.edn
+    Verilog output   : imx_interface.v
+    Verilog template : imx_interface_tmpl.v
+    Verilog purpose  : for synthesis and simulation
+    Bus notation     : big endian
+    Report output    : imx_interface.srp
+    Element Usage    :
+             IB : 9
+         DELAYG : 8
+        IDDRX2F : 8
+        CLKDIVF : 1
+      ECLKSYNCB : 1
+    Estimated Resource Usage:

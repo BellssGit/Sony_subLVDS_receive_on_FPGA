@@ -1,0 +1,20 @@
+#Start recording tcl command: 1/22/2025 12:10:06
+#Project Location: C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA; Project name: imx178_test
+prj_project open "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/imx178_test.ldf"
+sbp_design open -dsgn "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/line_buffer/line_buffer.sbx"
+sbp_design open -dsgn "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/imx_interface/imx_interface.sbx"
+set currentPath [pwd];set tmp_autopath $auto_path
+cd "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/imx_interface"
+source "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/imx_interface/generate_core.tcl"
+set auto_path $tmp_autopath;cd $currentPath
+sbp_design open -dsgn "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/imx_interface/imx_interface.sbx"
+set currentPath [pwd];set tmp_autopath $auto_path
+cd "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/imx_interface"
+source "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/imx_interface/generate_core.tcl"
+set auto_path $tmp_autopath;cd $currentPath
+sbp_design open -dsgn "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/imx_interface/imx_interface.sbx"
+set currentPath [pwd];set tmp_autopath $auto_path
+cd "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/imx_interface"
+source "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/imx_interface/generate_core.tcl"
+set auto_path $tmp_autopath;cd $currentPath
+#Stop recording: 1/22/2025 15:41:04

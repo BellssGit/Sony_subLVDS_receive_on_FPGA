@@ -1,0 +1,12 @@
+#Start recording tcl command: 1/29/2025 17:48:02
+#Project Location: C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA; Project name: imx178_test
+prj_project open "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/imx178_test.ldf"
+sbp_design open -dsgn "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/imx_interface/imx_interface.sbx"
+sbp_design open -dsgn "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/line_buffer/line_buffer.sbx"
+prj_src exclude "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/src/tft_ctrl.v" "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/display_clock/display_clock.sbx"
+prj_run PAR -impl impl1
+prj_run Export -impl impl1
+prj_run PAR -impl impl1
+prj_project save
+prj_project close
+#Stop recording: 1/29/2025 21:27:46

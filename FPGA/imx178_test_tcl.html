@@ -1,0 +1,215 @@
+<HTML>
+<HEAD><TITLE>Lattice TCL Log</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="pn250115015235"></A><B><U><big>pn250115015235</big></U></B>
+#Start recording tcl command: 1/14/2025 13:38:28
+#Project Location: C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA; Project name: imx178_test
+prj_project open "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/imx178_test.ldf"
+prj_src remove "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/impl1/source/imx_capture.v" "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/impl1/source/tb.v" "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/impl1/source/top.v"
+prj_src add "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/src/imx_capture.v" "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/src/tb.v" "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/src/top.v"
+prj_src syn_sim -src "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/src/tb.v" SynthesisOnly
+prj_src syn_sim -src "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/src/tb.v" SimulateOnly
+sbp_design open -dsgn "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/imx_interface/imx_interface.sbx"
+#Stop recording: 1/15/2025 01:52:35
+
+
+
+<A name="pn250115131145"></A><B><U><big>pn250115131145</big></U></B>
+#Start recording tcl command: 1/15/2025 13:06:49
+#Project Location: C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA; Project name: imx178_test
+prj_project open "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/imx178_test.ldf"
+prj_src remove "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/impl1/source/top.v" "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/impl1/source/tb.v" "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/impl1/source/imx_capture.v"
+prj_src add "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/src/imx_capture.v" "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/src/tb.v" "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/src/top.v"
+prj_src syn_sim -src "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/src/tb.v" SimulateOnly
+#Stop recording: 1/15/2025 13:11:45
+
+
+
+<A name="pn250115234254"></A><B><U><big>pn250115234254</big></U></B>
+#Start recording tcl command: 1/15/2025 13:15:49
+#Project Location: C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA; Project name: imx178_test
+prj_project open "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/imx178_test.ldf"
+#Stop recording: 1/15/2025 23:42:54
+
+
+
+<A name="pn250118234042"></A><B><U><big>pn250118234042</big></U></B>
+#Start recording tcl command: 1/18/2025 22:12:45
+#Project Location: C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA; Project name: imx178_test
+prj_project open "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/imx178_test.ldf"
+prj_run Translate -impl impl1
+#Stop recording: 1/18/2025 23:40:42
+
+
+
+<A name="pn250119005351"></A><B><U><big>pn250119005351</big></U></B>
+#Start recording tcl command: 1/19/2025 00:45:47
+#Project Location: C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA; Project name: imx178_test
+prj_project open "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/imx178_test.ldf"
+#Stop recording: 1/19/2025 00:53:51
+
+
+
+<A name="pn250119194713"></A><B><U><big>pn250119194713</big></U></B>
+#Start recording tcl command: 1/19/2025 12:14:44
+#Project Location: C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA; Project name: imx178_test
+prj_project open "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/imx178_test.ldf"
+prj_src add "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/src/sublvds_word_aligner.v"
+prj_src remove "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/src/sublvds_word_aligner.v"
+prj_src add "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/word_aligner.v"
+prj_src remove "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/word_aligner.v"
+prj_src add "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/src/word_aligner.v"
+sbp_design open -dsgn "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/imx_interface/imx_interface.sbx"
+set currentPath [pwd];set tmp_autopath $auto_path
+cd "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/line_buffer"
+source "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/line_buffer/generate_core.tcl"
+set auto_path $tmp_autopath;cd $currentPath
+prj_src add "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/line_buffer/line_buffer.sbx"
+prj_src exclude "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/line_buffer/line_buffer.sbx"
+prj_run Map -impl impl1
+sbp_design open -dsgn "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/line_buffer/line_buffer.sbx"
+set currentPath [pwd];set tmp_autopath $auto_path
+cd "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/line_buffer"
+source "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/line_buffer/generate_core.tcl"
+set auto_path $tmp_autopath;cd $currentPath
+sbp_design open -dsgn "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/line_buffer/line_buffer.sbx"
+set currentPath [pwd];set tmp_autopath $auto_path
+cd "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/line_buffer"
+source "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/line_buffer/generate_core.tcl"
+set auto_path $tmp_autopath;cd $currentPath
+prj_src enable "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/line_buffer/line_buffer.sbx"
+sbp_design open -dsgn "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/line_buffer/line_buffer.sbx"
+sbp_design open -dsgn "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/line_buffer/line_buffer.sbx"
+set currentPath [pwd];set tmp_autopath $auto_path
+cd "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/line_buffer"
+source "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/line_buffer/generate_core.tcl"
+set auto_path $tmp_autopath;cd $currentPath
+sbp_design open -dsgn "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/line_buffer/line_buffer.sbx"
+set currentPath [pwd];set tmp_autopath $auto_path
+cd "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/line_buffer"
+source "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/line_buffer/generate_core.tcl"
+set auto_path $tmp_autopath;cd $currentPath
+sbp_design open -dsgn "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/line_buffer/line_buffer.sbx"
+set currentPath [pwd];set tmp_autopath $auto_path
+cd "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/line_buffer"
+source "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/line_buffer/generate_core.tcl"
+set auto_path $tmp_autopath;cd $currentPath
+#Stop recording: 1/19/2025 19:47:13
+
+
+
+<A name="pn250122154104"></A><B><U><big>pn250122154104</big></U></B>
+#Start recording tcl command: 1/22/2025 12:10:06
+#Project Location: C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA; Project name: imx178_test
+prj_project open "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/imx178_test.ldf"
+sbp_design open -dsgn "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/line_buffer/line_buffer.sbx"
+sbp_design open -dsgn "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/imx_interface/imx_interface.sbx"
+set currentPath [pwd];set tmp_autopath $auto_path
+cd "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/imx_interface"
+source "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/imx_interface/generate_core.tcl"
+set auto_path $tmp_autopath;cd $currentPath
+sbp_design open -dsgn "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/imx_interface/imx_interface.sbx"
+set currentPath [pwd];set tmp_autopath $auto_path
+cd "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/imx_interface"
+source "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/imx_interface/generate_core.tcl"
+set auto_path $tmp_autopath;cd $currentPath
+sbp_design open -dsgn "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/imx_interface/imx_interface.sbx"
+set currentPath [pwd];set tmp_autopath $auto_path
+cd "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/imx_interface"
+source "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/imx_interface/generate_core.tcl"
+set auto_path $tmp_autopath;cd $currentPath
+#Stop recording: 1/22/2025 15:41:04
+
+
+
+<A name="pn250122163857"></A><B><U><big>pn250122163857</big></U></B>
+#Start recording tcl command: 1/22/2025 16:38:31
+#Project Location: C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA; Project name: imx178_test
+prj_project open "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/imx178_test.ldf"
+#Stop recording: 1/22/2025 16:38:57
+
+
+
+<A name="pn250126160904"></A><B><U><big>pn250126160904</big></U></B>
+#Start recording tcl command: 1/26/2025 15:54:16
+#Project Location: C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA; Project name: imx178_test
+prj_project open "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/imx178_test.ldf"
+prj_project close
+#Stop recording: 1/26/2025 16:09:04
+
+
+
+<A name="pn250129212746"></A><B><U><big>pn250129212746</big></U></B>
+#Start recording tcl command: 1/29/2025 17:48:02
+#Project Location: C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA; Project name: imx178_test
+prj_project open "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/imx178_test.ldf"
+sbp_design open -dsgn "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/imx_interface/imx_interface.sbx"
+sbp_design open -dsgn "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/line_buffer/line_buffer.sbx"
+prj_src exclude "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/src/tft_ctrl.v" "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/display_clock/display_clock.sbx"
+prj_run PAR -impl impl1
+prj_run Export -impl impl1
+prj_run PAR -impl impl1
+prj_project save
+prj_project close
+#Stop recording: 1/29/2025 21:27:46
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

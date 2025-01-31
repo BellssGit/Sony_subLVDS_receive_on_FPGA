@@ -1,0 +1,71 @@
+<Project ModBy="Inserter" SigType="0" Name="C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/reveal/probe.rvl" Date="2025-01-31">
+    <IP Version="1_6_042617"/>
+    <Design DesignEntry="Schematic/Verilog HDL" Synthesis="synplify" DeviceFamily="ECP5U" DesignName="imx178_test"/>
+    <Core InsertDataset="0" Insert="1" Reveal_sig="612240549" Name="top_LA0" ID="0">
+        <Setting>
+            <Clock SampleClk="sclk" SampleEnable="0" EnableClk="" EnableClk_Pri="0"/>
+            <TraceBuffer Implementation="0" BitTimeStamp="0" hasTimeStamp="0" IncTrigSig="0" BufferDepth="2048"/>
+            <Capture Mode="0" MinSamplesPerTrig="16"/>
+            <Event CntEnable="0" MaxEventCnt="8"/>
+            <TrigOut Polarity="0" MinPulseWidth="0" TrigOutNetType="1" EnableTrigOut="0" TrigOutNet="reveal_debug_top_LA0_net"/>
+            <DistRAM Disable="0"/>
+        </Setting>
+        <Dataset Name="Base">
+            <Trace>
+                <Sig Type="SIG" Name="imx_capture_inst/vaild_line_sync"/>
+                <Sig Type="SIG" Name="imx_capture_inst/invaild_line_sync"/>
+                <Sig Type="SIG" Name="imx_capture_inst/fifo_we"/>
+                <Bus Name="FIFO_IN_CH1">
+                    <Sig Type="SIG" Name="imx_capture_inst/channel_0_temp:0"/>
+                    <Sig Type="SIG" Name="imx_capture_inst/channel_0_temp:1"/>
+                    <Sig Type="SIG" Name="imx_capture_inst/channel_0_temp:2"/>
+                    <Sig Type="SIG" Name="imx_capture_inst/channel_0_temp:3"/>
+                    <Sig Type="SIG" Name="imx_capture_inst/channel_0_temp:4"/>
+                    <Sig Type="SIG" Name="imx_capture_inst/channel_0_temp:5"/>
+                    <Sig Type="SIG" Name="imx_capture_inst/channel_0_temp:6"/>
+                    <Sig Type="SIG" Name="imx_capture_inst/channel_0_temp:7"/>
+                    <Sig Type="SIG" Name="imx_capture_inst/channel_0_temp:8"/>
+                    <Sig Type="SIG" Name="imx_capture_inst/channel_0_temp:9"/>
+                    <Sig Type="SIG" Name="imx_capture_inst/channel_0_temp:10"/>
+                    <Sig Type="SIG" Name="imx_capture_inst/channel_0_temp:11"/>
+                </Bus>
+                <Bus Name="FIFO_OUT_CH1">
+                    <Sig Type="SIG" Name="fifo_dout:0"/>
+                    <Sig Type="SIG" Name="fifo_dout:1"/>
+                    <Sig Type="SIG" Name="fifo_dout:2"/>
+                    <Sig Type="SIG" Name="fifo_dout:3"/>
+                    <Sig Type="SIG" Name="fifo_dout:4"/>
+                    <Sig Type="SIG" Name="fifo_dout:5"/>
+                    <Sig Type="SIG" Name="fifo_dout:6"/>
+                    <Sig Type="SIG" Name="fifo_dout:7"/>
+                    <Sig Type="SIG" Name="fifo_dout:8"/>
+                    <Sig Type="SIG" Name="fifo_dout:9"/>
+                    <Sig Type="SIG" Name="fifo_dout:10"/>
+                    <Sig Type="SIG" Name="fifo_dout:11"/>
+                </Bus>
+                <Bus Name="imx_capture_inst/pix_cnt">
+                    <Sig Type="SIG" Name="imx_capture_inst/pix_cnt:0"/>
+                    <Sig Type="SIG" Name="imx_capture_inst/pix_cnt:1"/>
+                    <Sig Type="SIG" Name="imx_capture_inst/pix_cnt:2"/>
+                    <Sig Type="SIG" Name="imx_capture_inst/pix_cnt:3"/>
+                    <Sig Type="SIG" Name="imx_capture_inst/pix_cnt:4"/>
+                    <Sig Type="SIG" Name="imx_capture_inst/pix_cnt:5"/>
+                    <Sig Type="SIG" Name="imx_capture_inst/pix_cnt:6"/>
+                    <Sig Type="SIG" Name="imx_capture_inst/pix_cnt:7"/>
+                    <Sig Type="SIG" Name="imx_capture_inst/pix_cnt:8"/>
+                    <Sig Type="SIG" Name="imx_capture_inst/pix_cnt:9"/>
+                    <Sig Type="SIG" Name="imx_capture_inst/pix_cnt:10"/>
+                    <Sig Type="SIG" Name="imx_capture_inst/pix_cnt:11"/>
+                    <Sig Type="SIG" Name="imx_capture_inst/pix_cnt:12"/>
+                    <Sig Type="SIG" Name="imx_capture_inst/pix_cnt:13"/>
+                    <Sig Type="SIG" Name="imx_capture_inst/pix_cnt:14"/>
+                    <Sig Type="SIG" Name="imx_capture_inst/pix_cnt:15"/>
+                </Bus>
+            </Trace>
+            <Trigger>
+                <TU Serialbits="0" Type="0" ID="1" Sig="imx_hsync_in,"/>
+                <TE MaxSequence="1" MaxEvnCnt="1" ID="1" Resource="1"/>
+            </Trigger>
+        </Dataset>
+    </Core>
+</Project>

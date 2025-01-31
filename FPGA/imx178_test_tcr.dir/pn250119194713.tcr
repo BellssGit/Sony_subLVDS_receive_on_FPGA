@@ -1,0 +1,44 @@
+#Start recording tcl command: 1/19/2025 12:14:44
+#Project Location: C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA; Project name: imx178_test
+prj_project open "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/imx178_test.ldf"
+prj_src add "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/src/sublvds_word_aligner.v"
+prj_src remove "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/src/sublvds_word_aligner.v"
+prj_src add "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/word_aligner.v"
+prj_src remove "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/word_aligner.v"
+prj_src add "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/src/word_aligner.v"
+sbp_design open -dsgn "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/imx_interface/imx_interface.sbx"
+set currentPath [pwd];set tmp_autopath $auto_path
+cd "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/line_buffer"
+source "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/line_buffer/generate_core.tcl"
+set auto_path $tmp_autopath;cd $currentPath
+prj_src add "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/line_buffer/line_buffer.sbx"
+prj_src exclude "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/line_buffer/line_buffer.sbx"
+prj_run Map -impl impl1
+sbp_design open -dsgn "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/line_buffer/line_buffer.sbx"
+set currentPath [pwd];set tmp_autopath $auto_path
+cd "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/line_buffer"
+source "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/line_buffer/generate_core.tcl"
+set auto_path $tmp_autopath;cd $currentPath
+sbp_design open -dsgn "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/line_buffer/line_buffer.sbx"
+set currentPath [pwd];set tmp_autopath $auto_path
+cd "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/line_buffer"
+source "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/line_buffer/generate_core.tcl"
+set auto_path $tmp_autopath;cd $currentPath
+prj_src enable "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/line_buffer/line_buffer.sbx"
+sbp_design open -dsgn "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/line_buffer/line_buffer.sbx"
+sbp_design open -dsgn "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/line_buffer/line_buffer.sbx"
+set currentPath [pwd];set tmp_autopath $auto_path
+cd "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/line_buffer"
+source "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/line_buffer/generate_core.tcl"
+set auto_path $tmp_autopath;cd $currentPath
+sbp_design open -dsgn "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/line_buffer/line_buffer.sbx"
+set currentPath [pwd];set tmp_autopath $auto_path
+cd "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/line_buffer"
+source "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/line_buffer/generate_core.tcl"
+set auto_path $tmp_autopath;cd $currentPath
+sbp_design open -dsgn "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/line_buffer/line_buffer.sbx"
+set currentPath [pwd];set tmp_autopath $auto_path
+cd "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/line_buffer"
+source "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/line_buffer/generate_core.tcl"
+set auto_path $tmp_autopath;cd $currentPath
+#Stop recording: 1/19/2025 19:47:13

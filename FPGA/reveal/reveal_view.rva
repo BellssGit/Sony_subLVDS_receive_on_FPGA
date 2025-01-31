@@ -1,0 +1,92 @@
+<!DOCTYPE ispTLA>
+<ispTLA>
+ <CreationDate>???? 1?? 22 16:41:10 2025</CreationDate>
+ <XCFFileName/>
+ <CableSetting>
+  <IsTRSTConnected val="false"/>
+  <TRSTSetting val="0"/>
+  <IsBSCANConnected val="false"/>
+  <BSCANSetting val="0"/>
+  <CableType val="USB2"/>
+  <PortAddress val="0"/>
+  <PortSetting val="0"/>
+  <TCKDelay val="1"/>
+ </CableSetting>
+ <DeviceCount>1</DeviceCount>
+ <Device>
+  <DeviceIndex>0</DeviceIndex>
+  <DeviceName>1. LFE5U-25F</DeviceName>
+  <DeviceID>0x41111043</DeviceID>
+  <HasIspTRACY>true</HasIspTRACY>
+  <HasJTAG2WB>false</HasJTAG2WB>
+  <SERDES/>
+  <IRBypassLen>8</IRBypassLen>
+  <RVLFileName>probe.rvl</RVLFileName>
+  <RVSFileName>probe.rvs</RVSFileName>
+  <LACoreCount>1</LACoreCount>
+  <WinUI CoreIndex="0">
+   <TraceSigTreeData>
+    <TraceSignal IsHidden="false" Name="imx_capture_inst/vaild_line_sync" NodeType="0" PortIndex="0"/>
+    <TraceSignal IsHidden="false" Name="imx_capture_inst/invaild_line_sync" NodeType="0" PortIndex="1"/>
+    <TraceSignal IsHidden="false" Name="imx_capture_inst/fifo_we" NodeType="0" PortIndex="2"/>
+    <TraceSignal IsHidden="false" Name="FIFO_IN_CH1" NodeType="1" PortIndex="3">
+     <BusRadix Radix="3"/>
+     <IsExpanded Expand="false"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="imx_capture_inst/channel_0_temp:0" NodeType="2" PortIndex="3"/>
+    <TraceSignal IsHidden="false" Name="imx_capture_inst/channel_0_temp:1" NodeType="2" PortIndex="4"/>
+    <TraceSignal IsHidden="false" Name="imx_capture_inst/channel_0_temp:2" NodeType="2" PortIndex="5"/>
+    <TraceSignal IsHidden="false" Name="imx_capture_inst/channel_0_temp:3" NodeType="2" PortIndex="6"/>
+    <TraceSignal IsHidden="false" Name="imx_capture_inst/channel_0_temp:4" NodeType="2" PortIndex="7"/>
+    <TraceSignal IsHidden="false" Name="imx_capture_inst/channel_0_temp:5" NodeType="2" PortIndex="8"/>
+    <TraceSignal IsHidden="false" Name="imx_capture_inst/channel_0_temp:6" NodeType="2" PortIndex="9"/>
+    <TraceSignal IsHidden="false" Name="imx_capture_inst/channel_0_temp:7" NodeType="2" PortIndex="10"/>
+    <TraceSignal IsHidden="false" Name="imx_capture_inst/channel_0_temp:8" NodeType="2" PortIndex="11"/>
+    <TraceSignal IsHidden="false" Name="imx_capture_inst/channel_0_temp:9" NodeType="2" PortIndex="12"/>
+    <TraceSignal IsHidden="false" Name="imx_capture_inst/channel_0_temp:10" NodeType="2" PortIndex="13"/>
+    <TraceSignal IsHidden="false" Name="imx_capture_inst/channel_0_temp:11" NodeType="2" PortIndex="14"/>
+    <TraceSignal IsHidden="false" Name="FIFO_OUT_CH1" NodeType="1" PortIndex="15">
+     <BusRadix Radix="3"/>
+     <IsExpanded Expand="false"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="fifo_dout:0" NodeType="2" PortIndex="15"/>
+    <TraceSignal IsHidden="false" Name="fifo_dout:1" NodeType="2" PortIndex="16"/>
+    <TraceSignal IsHidden="false" Name="fifo_dout:2" NodeType="2" PortIndex="17"/>
+    <TraceSignal IsHidden="false" Name="fifo_dout:3" NodeType="2" PortIndex="18"/>
+    <TraceSignal IsHidden="false" Name="fifo_dout:4" NodeType="2" PortIndex="19"/>
+    <TraceSignal IsHidden="false" Name="fifo_dout:5" NodeType="2" PortIndex="20"/>
+    <TraceSignal IsHidden="false" Name="fifo_dout:6" NodeType="2" PortIndex="21"/>
+    <TraceSignal IsHidden="false" Name="fifo_dout:7" NodeType="2" PortIndex="22"/>
+    <TraceSignal IsHidden="false" Name="fifo_dout:8" NodeType="2" PortIndex="23"/>
+    <TraceSignal IsHidden="false" Name="fifo_dout:9" NodeType="2" PortIndex="24"/>
+    <TraceSignal IsHidden="false" Name="fifo_dout:10" NodeType="2" PortIndex="25"/>
+    <TraceSignal IsHidden="false" Name="fifo_dout:11" NodeType="2" PortIndex="26"/>
+    <TraceSignal IsHidden="false" Name="imx_capture_inst/pix_cnt" NodeType="1" PortIndex="27">
+     <BusRadix Radix="2"/>
+     <IsExpanded Expand="false"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="imx_capture_inst/pix_cnt:0" NodeType="2" PortIndex="27"/>
+    <TraceSignal IsHidden="false" Name="imx_capture_inst/pix_cnt:1" NodeType="2" PortIndex="28"/>
+    <TraceSignal IsHidden="false" Name="imx_capture_inst/pix_cnt:2" NodeType="2" PortIndex="29"/>
+    <TraceSignal IsHidden="false" Name="imx_capture_inst/pix_cnt:3" NodeType="2" PortIndex="30"/>
+    <TraceSignal IsHidden="false" Name="imx_capture_inst/pix_cnt:4" NodeType="2" PortIndex="31"/>
+    <TraceSignal IsHidden="false" Name="imx_capture_inst/pix_cnt:5" NodeType="2" PortIndex="32"/>
+    <TraceSignal IsHidden="false" Name="imx_capture_inst/pix_cnt:6" NodeType="2" PortIndex="33"/>
+    <TraceSignal IsHidden="false" Name="imx_capture_inst/pix_cnt:7" NodeType="2" PortIndex="34"/>
+    <TraceSignal IsHidden="false" Name="imx_capture_inst/pix_cnt:8" NodeType="2" PortIndex="35"/>
+    <TraceSignal IsHidden="false" Name="imx_capture_inst/pix_cnt:9" NodeType="2" PortIndex="36"/>
+    <TraceSignal IsHidden="false" Name="imx_capture_inst/pix_cnt:10" NodeType="2" PortIndex="37"/>
+    <TraceSignal IsHidden="false" Name="imx_capture_inst/pix_cnt:11" NodeType="2" PortIndex="38"/>
+    <TraceSignal IsHidden="false" Name="imx_capture_inst/pix_cnt:12" NodeType="2" PortIndex="39"/>
+    <TraceSignal IsHidden="false" Name="imx_capture_inst/pix_cnt:13" NodeType="2" PortIndex="40"/>
+    <TraceSignal IsHidden="false" Name="imx_capture_inst/pix_cnt:14" NodeType="2" PortIndex="41"/>
+    <TraceSignal IsHidden="false" Name="imx_capture_inst/pix_cnt:15" NodeType="2" PortIndex="42"/>
+   </TraceSigTreeData>
+   <TriggerUI UserSelect="0" PreSelectType="0" PreSelect="1" UserSelectPos="0"/>
+   <CoreRun Run="true"/>
+   <CoreWndUIData>
+    <ClockFrequency Unit="ns" Frequency="-1.0"/>
+   </CoreWndUIData>
+  </WinUI>
+ </Device>
+</ispTLA>

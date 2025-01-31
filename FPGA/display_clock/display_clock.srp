@@ -1,0 +1,26 @@
+SCUBA, Version Diamond (64-bit) 3.13.0.56.2
+Thu Jan 23 20:42:22 2025
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2023 Lattice Semiconductor Corporation,  All rights reserved.
+
+    Issued command   : C:\lscc\diamond\3.13\ispfpga\bin\nt64\scuba.exe -w -n display_clock -lang verilog -synth synplify -bus_exp 7 -bb -arch sa5p00 -type pll -fin 50 -fclkop 10 -fclkop_tol 0.0 -phase_cntl STATIC -fb_mode 1 -fdc C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/display_clock/display_clock.fdc 
+    Circuit name     : display_clock
+    Module type      : pll
+    Module Version   : 5.7
+    Ports            : 
+	Inputs       : CLKI
+	Outputs      : CLKOP
+    I/O buffer       : not inserted
+    EDIF output      : display_clock.edn
+    Verilog output   : display_clock.v
+    Verilog template : display_clock_tmpl.v
+    Verilog purpose  : for synthesis and simulation
+    Bus notation     : big endian
+    Report output    : display_clock.srp
+    Element Usage    :
+        EHXPLLL : 1
+    Estimated Resource Usage:

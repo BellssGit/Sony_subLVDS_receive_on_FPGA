@@ -1,0 +1,66 @@
+<Project ModBy="Analyzer" Name="C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/reveal/probe.rvs" Date="2025-01-31">
+ <Core Name="top_LA0">
+  <Setting>
+   <Capture SamplesPerTrig="2048" NumTrigsCap="1"/>
+   <Event EventCnt="0" CntEnableRun="0"/>
+   <TrigSetting PreTrgSamples="" AND_ALL="0" PostTrgSamples="" TURadix="0"/>
+  </Setting>
+  <Dataset Name="Base">
+   <Trace>
+    <Sig Name="imx_capture_inst/vaild_line_sync"/>
+    <Sig Name="imx_capture_inst/invaild_line_sync"/>
+    <Sig Name="imx_capture_inst/fifo_we"/>
+    <Bus Name="FIFO_IN_CH1" Radix="0">
+     <Sig Name="imx_capture_inst/channel_0_temp:0"/>
+     <Sig Name="imx_capture_inst/channel_0_temp:1"/>
+     <Sig Name="imx_capture_inst/channel_0_temp:2"/>
+     <Sig Name="imx_capture_inst/channel_0_temp:3"/>
+     <Sig Name="imx_capture_inst/channel_0_temp:4"/>
+     <Sig Name="imx_capture_inst/channel_0_temp:5"/>
+     <Sig Name="imx_capture_inst/channel_0_temp:6"/>
+     <Sig Name="imx_capture_inst/channel_0_temp:7"/>
+     <Sig Name="imx_capture_inst/channel_0_temp:8"/>
+     <Sig Name="imx_capture_inst/channel_0_temp:9"/>
+     <Sig Name="imx_capture_inst/channel_0_temp:10"/>
+     <Sig Name="imx_capture_inst/channel_0_temp:11"/>
+    </Bus>
+    <Bus Name="FIFO_OUT_CH1" Radix="0">
+     <Sig Name="fifo_dout:0"/>
+     <Sig Name="fifo_dout:1"/>
+     <Sig Name="fifo_dout:2"/>
+     <Sig Name="fifo_dout:3"/>
+     <Sig Name="fifo_dout:4"/>
+     <Sig Name="fifo_dout:5"/>
+     <Sig Name="fifo_dout:6"/>
+     <Sig Name="fifo_dout:7"/>
+     <Sig Name="fifo_dout:8"/>
+     <Sig Name="fifo_dout:9"/>
+     <Sig Name="fifo_dout:10"/>
+     <Sig Name="fifo_dout:11"/>
+    </Bus>
+    <Bus Name="imx_capture_inst/pix_cnt" Radix="0">
+     <Sig Name="imx_capture_inst/pix_cnt:0"/>
+     <Sig Name="imx_capture_inst/pix_cnt:1"/>
+     <Sig Name="imx_capture_inst/pix_cnt:2"/>
+     <Sig Name="imx_capture_inst/pix_cnt:3"/>
+     <Sig Name="imx_capture_inst/pix_cnt:4"/>
+     <Sig Name="imx_capture_inst/pix_cnt:5"/>
+     <Sig Name="imx_capture_inst/pix_cnt:6"/>
+     <Sig Name="imx_capture_inst/pix_cnt:7"/>
+     <Sig Name="imx_capture_inst/pix_cnt:8"/>
+     <Sig Name="imx_capture_inst/pix_cnt:9"/>
+     <Sig Name="imx_capture_inst/pix_cnt:10"/>
+     <Sig Name="imx_capture_inst/pix_cnt:11"/>
+     <Sig Name="imx_capture_inst/pix_cnt:12"/>
+     <Sig Name="imx_capture_inst/pix_cnt:13"/>
+     <Sig Name="imx_capture_inst/pix_cnt:14"/>
+     <Sig Name="imx_capture_inst/pix_cnt:15"/>
+    </Bus>
+   </Trace>
+   <Trigger>
+    <TU Operator="6" Name="TU1" ID="1" Value="0" Radix="0"/>
+    <TE Enable="1" Expression="TU1" Name="TE1" ID="1"/>
+   </Trigger>
+  </Dataset>
+ </Core>
+</Project>

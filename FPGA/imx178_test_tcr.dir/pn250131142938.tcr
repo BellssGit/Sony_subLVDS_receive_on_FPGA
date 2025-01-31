@@ -1,0 +1,7 @@
+#Start recording tcl command: 1/31/2025 14:28:19
+#Project Location: C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA; Project name: imx178_test
+prj_project open "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/imx178_test.ldf"
+prj_src remove "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/impl1/impl1.xcf"
+prj_src remove "C:/Users/11382/Documents/DIY_PRJ/DIY_IMX178_CAM/FPGA/sims/sims.spf"
+prj_run Export -impl impl1
+#Stop recording: 1/31/2025 14:29:38
